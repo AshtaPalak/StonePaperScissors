@@ -1,0 +1,25 @@
+.options button {
+  background-color: beige;
+  height: 90px;
+  width: 90px;
+  border-radius: 90px;
+  font-size: 30px;
+}
+.options {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stone {
+  border: 10px solid violet;
+}
+.scissor {
+  border: 10px solid yellow;
+}
+.paper {
+  border: 10px solid blue;
+}

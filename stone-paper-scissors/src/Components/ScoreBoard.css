@@ -1,0 +1,26 @@
+.score-board {
+  display: flex;
+  gap: 30px;
+  width: 600px;
+  margin: 10px;
+  padding: 10px;
+  border: 10px solid white;
+  border-radius: 14px;
+  justify-content: space-between;
+}
+
+.score-board .title {
+  color: aliceblue;
+}
+
+.score-board .computer-score,
+.score-board .your-score {
+  background-color: white;
+  width: 90px;
+
+  color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 14px;
+}

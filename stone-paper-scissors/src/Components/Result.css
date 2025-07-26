@@ -1,0 +1,72 @@
+.result {
+  width: 70%;
+  height: 70vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.you-picked {
+  width: 100px;
+  height: 20%;
+  border-radius: 90px;
+  border: 10px solid violet;
+  font-size: xx-large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+.announcement {
+  color: white;
+  font-size: x-large;
+  position: absolute;
+  left: 35%;
+}
+
+.announcement button {
+  background-color: white;
+  color: greenyellow;
+  border-radius: 14px;
+  padding: 4px;
+  border: none;
+  margin-top: 10px;
+}
+
+.pc-picked {
+  width: 100px;
+  height: 20%;
+  border-radius: 90px;
+  border: 10px solid yellow;
+  font-size: xx-large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes won {
+  0% {
+    box-shadow: none;
+  }
+  25% {
+    box-shadow: 0 0 0 10px lightgreen;
+  }
+  50% {
+    box-shadow: 0 0 0 10px lightgreen, 0 0 0 20px green;
+  }
+  75% {
+    box-shadow: 0 0 0 10px lightgreen, 0 0 0 20px green, 0 0 0 30px darkgreen;
+  }
+  100% {
+    box-shadow: 0 0 0 10px lightgreen, 0 0 0 20px green, 0 0 0 30px darkgreen,
+      0 0 0 40px black;
+  }
+}
